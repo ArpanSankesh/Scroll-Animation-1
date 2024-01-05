@@ -1,0 +1,63 @@
+:root{
+    --bg-color:#1f242d;
+    --heading1-color:hsl(0, 0%, 100%);    
+    --p1-color:#0ef;
+    --p2-color:#0f0 ;
+    --p3-color:#e0f;
+    --p4-color:#ff0;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.section{
+    background-color: var(--bg-color);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+    line-height: 4rem;
+}
+
+.section h1{
+    color: var(--heading1-color);
+    font-size: 3.5rem;
+}
+
+.section p{
+    font-size: 2rem;
+    shadow:  10px 10px 30px var(--p1-color);
+}
+.sec-1 p{
+    color: var(--p1-color);
+}
+.sec-2{
+    color: var(--p2-color);
+}
+.sec-3{
+color: var(--p3-color);
+}
+.sec-4{
+    color: var(--p4-color);
+}
+.sec-5{
+    padding: 100px;
+}
+
+.sec-5 h1{
+    margin: 40px;
+}
+.sec-5 img{
+    margin-right: 25px;
+}
+
+img{
+width: 350px;
+}
